@@ -16,7 +16,7 @@ sudo apt install python3-evtx
 
 ### 2. Conversion du fichier EVTX en XML
 
-Nous avons utilisé l'outil evtx_dump.py pour convertir le fichier EVTX en format XML plus lisible :
+J'ai utilisé l'outil evtx_dump.py pour convertir le fichier EVTX en format XML plus lisible :
 
 ```bash
 evtx_dump.py Application.evtx > Application.xml
@@ -24,7 +24,7 @@ evtx_dump.py Application.evtx > Application.xml
 
 ### 3. Analyse du fichier XML
 
-Ayant l'intuition que le flag pourrait être encodé en base64, nous avons cherché des chaînes suspectes dans le fichier XML généré.
+Ayant l'intuition que le flag pourrait être encodé en base64, j'ai cherché des chaînes suspectes dans le fichier XML généré.
 
 ### 4. Découverte du flag encodé
 
