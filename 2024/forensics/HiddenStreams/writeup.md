@@ -28,10 +28,10 @@ Ayant l'intuition que le flag pourrait être encodé en base64, nous avons cherc
 
 ### 4. Découverte du flag encodé
 
-strings -a  Application.xml | grep -i Zmxh :
 
 ```
-ZmxhZ3tiZmVmYjg5MTE4MzAzMmY0NGZhOTNkMGM3YmQ0MGRhOX0=
+strings -a Application.xml | grep -i Zmxh
+<Data Name="Contents">ZmxhZ3tiZmVmYjg5MTE4MzAzMmY0NGZhOTNkMGM3YmQ0MGRhOX0=  </Data>
 ```
 
 ### 5. Décodage du flag
