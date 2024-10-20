@@ -11,3 +11,5 @@ encoded_bytes = b''.join(x.to_bytes((x.bit_length() + 7) // 8, 'little') for x i
 decoded = bytes(b ^ 0x56 for b in encoded_bytes)
 
 print(decoded.decode('ascii'))
+
+#flag{bb59566e21f55e5680d589f3dbbec0f8}
