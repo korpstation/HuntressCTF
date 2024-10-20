@@ -11,12 +11,12 @@ Si vous pretez bien attention vous verrai que chaque paquet envoyé contient un 
 
 ## J'ai utilisé trois scripts en tout pour la résolution. 
 
-![Etape1](Etape1.py)
-![Etape2](Etape2.py)
-![Etape3](Etape3.py )
+[Etape1](Etape1.py)
+[Etape2](Etape2.py)
+[Etape3](Etape3.py )
 
 ## Et vous obtenez le flag
 
-![Flag](Etape1.png)
+![Flag](Flag.png)
 
 
