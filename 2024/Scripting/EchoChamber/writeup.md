@@ -1,22 +1,22 @@
 
 ![Description duu challenge](challenge.png)
 
-## Contexte
-Le challenge portait sur l'analyse d'un fichier PCAP contenant des trames ICMP. Nous devions identifier un message caché.
 
-## Étape 1: Analyse initiale
-J'ai d'abord ouvert le fichier PCAP dans Wireshark.
+En ouvrant le fichier pcap dans Wireshark voici ce que l'on obtient 
 
-![Ouverture du fichier PCAP dans Wireshark](images/wireshark_open.png)
+![Ouverture du fichier PCAP dans Wireshark](data.png)
 
-## Étape 2: Extraction des trames ICMP
-J'ai filtré les trames ICMP avec le filtre suivant : `icmp`.
+Si vous pretez bien attention vous verrai que chaque paquet envoyé contient un octet d'une image png. 89 50 4e 47 ... sont les magics bytes d'une image png. Une fois que nous avos une idée de ce que nous à faire il temps de préparer le script pour extraire les données.  
 
-![Filtrage des trames ICMP](images/icmp_filter.png)
 
-## Étape 3: Analyse des identifiants ICMP
-J'ai remarqué que les identifiants ICMP apparaissent deux fois de suite, indiquant potentiellement un message à décrypter.
+## J'ai utilisé trois scripts en tout pour la résolution. 
 
-## Résultat final
-Après avoir décodé les identifiants, j'ai trouvé que le message caché était **"HELLO WORLD"**.
+![Etape1](Etape1.py)
+![Etape2](Etape2.py)
+![Etape3](Etape3.py )
+
+## Et vous obtenez le flag
+
+![Flag](Etape1.png)
+
 
