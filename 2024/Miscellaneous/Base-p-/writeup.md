@@ -31,7 +31,11 @@ J'ai ensuite utilisé l'outil magic de [Cyberchef](https://gchq.github.io/CyberC
 
 ![magic](magic.png)
 
-L'image obtenu comporte des couleurs, les codes de couleur ? C'est sûrement la première chose qui nous vient à l'esprit et justement une fois les codes de couleur rassemblé on obtient le flag 
+L'image obtenu comporte des couleurs, les codes de couleur ? C'est sûrement la première chose qui nous vient à l'esprit. Vous pouvez utilisez un outil en ligne pour obtenir les codes de chaque couleur 
+
+![couleur](hex.png)
+
+Et justement une fois les codes de couleur rassemblé on obtient le flag 
 
 ![Flag](dcode.png)
 
