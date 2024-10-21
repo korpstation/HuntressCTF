@@ -38,4 +38,5 @@ L'image obtenu comporte des couleurs, les codes de couleur ? C'est sûrement la 
 Et justement une fois les codes de couleur rassemblé on obtient le flag 
 
 ![Flag](dcode.png)
+##	flag{586cf8c849c9730ea7b2112fff39ff6a} 
 
