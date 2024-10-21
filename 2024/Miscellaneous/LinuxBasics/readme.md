@@ -108,7 +108,6 @@ cat /etc/group | grep admin
 file /home/user/myfile.txt
 ```
 
-## Flag
 
 After answering all questions correctly using the `answer` tool, the flag should be revealed.
 
